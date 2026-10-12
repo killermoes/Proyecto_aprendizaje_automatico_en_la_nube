@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "churn-mlops"
+version = "0.1.0"
+description = "Reproducible Telco customer churn MLOps project"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas==3.0.6",
+    "scikit-learn==1.9.1",
+    "matplotlib==3.11.2",
+    "mlflow==3.17.0",
+    "skops==0.16.0",
+    "notebook==7.6.3",
+    "ipykernel==7.4.0",
+    "prefect==3.8.8",
+    "optuna==5.0.0",
+    "xgboost==3.4.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["churn_mlops*"]

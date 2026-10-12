@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+
+# Local experiment and orchestration state
+/mlruns/
+/mlflow.db
+/mlflow.db-shm
+/mlflow.db-wal
+/artifacts/
+/.prefect/
+
+# Local datasets, predictions, and exported model artifacts
+/data/raw/
+/data/processed/
+/data/inference/
+
+# Python package build artifacts
+/build/
+*.egg-info/
+
+# This is a separate Git repository, not part of the project root
+/churn-end-to-end/
+
+# Logs and editor/OS files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
