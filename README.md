@@ -1,4 +1,4 @@
-# Telco Customer Churn - Proyecto MLOps
+# Proyecto de aprendizaje automático en la nube: Telco Churn MLOps
 
 Proyecto reproducible para estimar si un cliente de telecomunicaciones
 cancelará el servicio (`Churn = Yes`). La métrica principal es F1 de la clase
